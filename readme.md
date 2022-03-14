@@ -1,5 +1,7 @@
 
-# Widget Library Alternative
+# Widget Library Alternative (REACT + WEBPACK)
+
+
 
 This widget has been prepared for Easysize.me in accordance with the following criteria 
  - The library can be loaded into any e-commerce product page
