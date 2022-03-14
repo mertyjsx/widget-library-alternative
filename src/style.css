@@ -1,0 +1,139 @@
+
+
+.modalContainer{
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(0,0,0,0.7);
+    z-index:100;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.modalContent{
+    padding: 3rem;
+    max-width: 600px;
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+}
+.centerColumn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.imageStyle{
+    width: 300px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.selectedAttribute{
+  
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 70%;
+    padding: 14px;
+    font-size: 16px;
+    color: white;
+   
+}
+ .blackButton{
+    background-color: black;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 70%;
+    padding: 14px;
+    font-size: 16px;
+    color: white;
+    box-shadow: rgb(180 180 180) 0px 6px 18px -5px;
+    
+ }
+ .animationClass{
+     height: 400px;
+ }
+ .orangeButton{
+    background-color: #ed6755;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 70%;
+    padding: 14px;
+    font-size: 16px;
+    color: white;
+    box-shadow: rgb(180 180 180) 0px 6px 18px -5px;
+    
+ }
+ .initButton{
+    background-color: #ed6755;
+    margin: 20px 0px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    padding: 14px;
+    font-size: 16px;
+    color: white;
+    box-shadow: rgb(180 180 180) 0px 6px 18px -5px !important;
+    
+ }
+.number{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+   
+    color: #636a71;
+
+}  
+
+.closeButton{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 20px;
+    height: 20px; 
+    color: #636a71; 
+}
+.backButton{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 20px;
+    height: 20px; 
+    color: #636a71;
+}
+  
+ .borderButton{
+    background-color: white;
+    margin: 10px;
+    border: 1px solid #d1d1d0;
+    border-radius: 5px;
+    width: 70%;
+    padding: 14px;
+    font-size: 16px;
+    color: #d1d1d0;
+    box-shadow: rgb(180 180 180) 0px 6px 18px -5px;
+ }
+ 
+  
+
+ .initButton, .orangeButton, .blackButton, .borderButton ,.backButton, .closeButton:hover{
+     cursor: pointer;
+ }
